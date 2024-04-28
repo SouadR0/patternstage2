@@ -2,9 +2,7 @@
 package com.mycompany.company.system;
 
 import java.util.ArrayList;
-
-
-public class Department {
+public class Department{
     
     public String name;
     public Address address;
@@ -17,12 +15,17 @@ public class Department {
         this.head = head;
         this.offices = new ArrayList<>();
     }
-    
-    public void addOffice(Office office) {
-        this.offices.add(office);
+
+    public void addOffice(Office office){
+         this.offices.add(office);
     }
-    
+
     public void removeOffice(Office office) {
         this.offices.remove(office);
     }
+
+
+
 }
+
+   
